@@ -1,0 +1,68 @@
+@charset "ISO-8859-1";
+body{
+	background-image:url("images.jpg");
+	background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+  background: black;
+}
+h1{
+color: orange;
+margin-top:2%;
+font-size:50px;	
+}
+.field{
+height:90%;
+width:30%;
+margin-left:5%;
+margin-top:2%;
+box-shadow : 7px 7px gray;
+border-radius:20px;
+overflow:hidden;
+color: white;
+background-color:black;
+}
+h2{
+	margin-top:10%;
+    font-size:30px;
+	word-spacing:4px;
+	letter-spacing:3px;
+	
+}
+.info{
+	margin-left:5%;
+	margin-top:10%;
+}
+input {
+	border: none;
+	border-bottom:2px solid white;
+	background:transparent;
+	padding: 5px 50px;
+	color: white;
+}
+
+label{
+	font-size: 20px;
+}
+
+.acc{
+	background:green;
+	color: white;
+	padding:10px;
+	margin-top:6%;
+	width:49%;
+}
+.clear{
+	background: green;
+    color: white;
+	padding:10px;
+	width:49%;
+}
+
+.acc:hover{
+background:black;	
+}
+
+.clear:hover{
+background:black;	
+}

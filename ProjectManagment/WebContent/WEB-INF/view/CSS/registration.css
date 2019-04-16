@@ -1,0 +1,65 @@
+@charset "ISO-8859-1";
+body{
+    background: linear-gradient(to right, #8E54E9,#4776E6);
+    background-image: url("image2.jpg");
+    background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative:
+}
+background:hover{
+	opacity: 10px;
+	
+}
+.field{
+height:100%;
+width:30%;
+margin-left:35%;
+margin-top:5%;
+box-shadow : 7px 7px gray;
+border-radius:20px;
+background-repeat:no-repeat;
+overflow:hidden;
+background:#B0C4DE;
+}
+h1{
+	margin-top:10%;
+}
+.info{
+	margin-left:5%;
+	margin-top:10%;
+}
+input {
+	border: none;
+	border-bottom:2px solid black;
+	background:transparent;
+	padding: 5px 50px;
+}
+
+label{
+	font-size: 20px;
+}
+
+.acc{
+	background:green;
+	color: white;
+	padding:10px;
+	margin-top:6%;
+	width:49%;
+}
+.clear{
+	background: green;
+    color: white;
+	padding:10px;
+	margin-left:50%;
+	margin-top:-10.5%;
+	width:49%;
+}
+
+.acc:hover{
+background:black;	
+}
+
+.clear:hover{
+background:black;	
+}
